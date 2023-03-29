@@ -1,0 +1,53 @@
+/* RESET */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: aquamarine;
+    border: magenta 3px dotted;
+    margin-bottom: 50px;
+}
+
+main{
+    margin-top: 70px;
+    background-color: lime;
+    border: rgb(106, 0, 255) 3px solid;
+}
+
+p:first-child{
+    color: red;
+    font-size: 2rem;
+}
+
+main p.bold{
+    color: violet;
+}
+
+
+ul{
+    padding-left: 20px;
+}
+
+main>h2{
+    color: goldenrod;
+}
+
+ul.list{
+    padding-left: 50px;
+}
+
+ul.list li:nth-child(even){
+    color:blueviolet;
+    text-decoration: line-through;
+}
+
+div.box{
+    height: 400px;
+    width: 350px;
+    background-color: blue;
+    margin: 0 auto;
+}
